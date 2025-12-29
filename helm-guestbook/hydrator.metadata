@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/abangser/argocd-example-apps",
+  "drySha": "0f2ebdd0ea18e0ffdd9d9c3f1b2b2dd9ba8deaa9",
+  "commands": [
+    "helm template . --name-template development-helm-guestbook --include-crds"
+  ]
+}
